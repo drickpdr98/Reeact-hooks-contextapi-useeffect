@@ -8,6 +8,7 @@ function App() {
   const [isLoggedIn, setIsLoggedIn] = useState(false);
 
   // check if user is logged in currently
+  // useeffect hook
   useEffect(() => {
     const userInformation = localStorage.getItem("isLoggedIn", "1");
 
